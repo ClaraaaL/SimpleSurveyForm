@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <h1 id="title">FreeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form" action="#" method="post">
+        <p><label id="name-label">Name<input id="name" type="text" Required placeholder="Enter your name"></label></p>
+        <p><label id="email-label">Email<input id="email" type="email" Required placeholder="Enter your Email"></label></p>
+        <p><label id="number-label">Age (optional)<input type="number" id="number" min="10" max="100" placeholder="age"> </label></p>
+        <p>Which option best describes your current role?
+        <select id="dropdown">
+            <option>Select current role</option>
+            <option value="1">Full time job</option>
+            <option value="2">Part time job</option>
+            <option value="3">Prefer not to say</option>
+            <option value="4">Other</option>
+            <option value="5">Student</option>
+        </select>
+         <p>Would you recommend freeCodeCamp to a friend?</p>
+            <label for="Definitely"><input id="Definitely" type="radio" value="survey-form" name="recommend" /> Definitely</label>
+            <label for="Maybe"><input id="Maybe" type="radio" value="survey-form" name="recommend" /> Maybe</label>
+             <label for="Never"><input id="Never" type="radio" value="survey-form" name="recommend" /> Never</label>
+        </p>
+        <p>
+            <label><input type="checkbox" name="survey-form" value="agreenment">I accept all the terms and conditions</label></p>
+            <p><label><input type="checkbox" name="survey-form" value="agreement">I agree to receive the information</label>
+        </p>
+        <p>Any comments or suggestions?</p>
+        <textarea id="comment-label"></textarea>
+    
+        <p><input type="submit" id="submit"></p>
+
+    </form>
+</body>
+</html>
